@@ -178,8 +178,12 @@ function authorClickHandler(event){
     authorLink.classList.add('active');
   /* END LOOP: for each found tag link */
   }
+  /* find author from the href */
+  
+  const author = href.replace('#author-', '');
+
   /* execute function "generateTitleLinks" with article selector as argument */
-  generateTitleLinks('[data-author="'+ tag +'"]');
+  generateTitleLinks('[data-author="'+ author +'"]');
 }
 
 function addClickListenersToAuthors(){

@@ -91,6 +91,7 @@ body {
   }
 }
 
+
 /* Authors */
 
 .authors {
@@ -117,4 +118,23 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+/* Tags */
+.tag-size-1{
+  font-size: 12px;
+}
+.tag-size-2{
+  font-size: 14px;
+}
+.tag-size-3{
+  font-size: 16px;
+}
+.tag-size-4{
+  font-size: 18px;
+}
+.tag-size-5{
+  font-size: 20px;
+}
+.tags li{
+  display: inline;
 }
